@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>The Tech Blog</title>
+</head>
+
+<body>
+  <video style="
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+      " autoplay muted loop id="myVideo">
+    <source src="./images/VK Styles - Темы вк, живые обои - Гию Томиока - Клинок, рассекающий демонов  Giyu Tomioka - Demon Slayer Kimetsu no Yaiba.mp4" type="video/mp4">
+  </video>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" style="color: white;" href="/">DSFC</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" style="color: white;" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="/profile.html">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" style="color: white;" href="/characters.html">Characters</a>
+          </li>
+        </ul>
+        <button id="logout" style="color: white;" class="btn btn-outline-primary" type="submit">Logout</button>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div style="background: rgba(0, 0, 0, 0.8)" class="row p-5 rounded-lg mb-3 mt-3">
+      <p class="lead" style="color: white;">Welcome To<span id="username"></span></p>
+      <h1 class="display-4" style="color: white;">Kimetsu no Yaiba Fanclub</h1>
+      <p class="lead" style="color: white">This is the page about the main characters in this story.</p>
+        <hr class="my-4" style="color: white;">
+    </div>
+  </div>
+  <div style="display: flex; justify-content: center;">
+  <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://cdn.myanimelist.net/images/characters/13/409573.jpg" class="img-fluid rounded-start" alt="XD">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 style="color: white;" class="card-title">Tanjiro Kamado</h5>
+          <p style="color: white;" class="card-text">Tanjiro Kamado is the main protagonist of Demon Slayer: Kimetsu no Yaiba. He is a Demon
+          Slayer in the Demon Slayer Corps, who joined to find a remedy to turn his sister, Nezuko Kamado, back into a human and
+          to hunt down and kill demons, and later swore to defeat Muzan Kibutsuji, the Demon King, in order to prevent others from
+          suffering the same fate as him.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="https://static.displate.com/857x1200/displate/2019-11-20/329786529be1517d1aa3877f464961bc_b947a5055e901fd7759f20fef32e3c3c.jpg" class="img-fluid rounded-start" alt="XD">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 style="color: white;" class="card-title">Nezuko Kamado</h5>
+          <p style="color: white;" class="card-text">Nezuko Kamado is the deuteragonist of Demon Slayer: Kimetsu no Yaiba. She is a demon and the younger sister of Tanjiro Kamado and one of the two remaining members of the Kamado family. Formerly a human, she
+          was attacked and turned into a demon by Muzan Kibutsuji.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="https://artfiles.alphacoders.com/127/127847.png" style="width: 85%; display: block;" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Zenitsu Agatsuma</h5>
+            <p style="color: white;" class="card-text">Zenitsu Agatsuma (我あが妻つま 善ぜん逸いつ Agatsuma Zen'itsu?) is one of the main protagonists of Demon Slayer: Kimetsu no Yaiba and along with Inosuke Hashibira, a travelling companion of Tanjiro Kamado and Nezuko Kamado. He is also a Demon Slayer
+            in the Demon Slayer Corps.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><div style="display: flex; justify-content: center;">
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px; margin: 10px; background: rgba(0, 0, 0, 0.5)">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="..." class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 style="color: white;" class="card-title">Card title</h5>
+            <p style="color: white;" class="card-text">This is a wider card with supporting text below as a natural
+              lead-in
+              to additional content.
+              This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+      <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+          
+</html>
